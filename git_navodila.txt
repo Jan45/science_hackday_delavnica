@@ -1,0 +1,9 @@
+GIT
+
+program za version control 
+
+Kodo imamo lahko lokalno, nalozimo na nek server (bitbucket, gitlab, github...)
+
+Ko naredimo nov projekt: se naredi README v markdown jeziku. 
+
+Iz serverja v lokalno: git clone -- "Se povezemo z repom na serverju, to rabimo samo na zacetku. "
