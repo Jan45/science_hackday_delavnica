@@ -26,3 +26,19 @@ Zdaj delamo na novem branchu. Če želimo to poslati na github, uporabimo ukaz:
 git push --set-upstream origin new-branch
 
 Pri tem je origin ime serverja. V kolikor bi imeli na izbiro več serverjev, bi jih lahko poimenovali po svoje. 
+
+MERGANJE:
+
+git merge "ime brancha"
+
+Ukaz rebase: 
+
+git rebase master
+greš na stransko vejo, daš rebase, da ti v stransko vejo spravi spremembe iz glavne veje. Potem naredis checkout na glavno vejo:
+
+git checkout master
+Potem naredis merge stranske veje: 
+
+git merge "ime brancha"
+
+Ideja je torej: ko nekaj naredis, neses spremembe iz masterja na stransko vejo, potem gres nazaj v glavno, sele nato mergas. 
