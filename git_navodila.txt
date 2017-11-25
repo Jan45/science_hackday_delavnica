@@ -42,3 +42,6 @@ Potem naredis merge stranske veje:
 git merge "ime brancha"
 
 Ideja je torej: ko nekaj naredis, neses spremembe iz masterja na stransko vejo, potem gres nazaj v glavno, sele nato mergas. 
+
+
+Ce nastanejo konflikti, ko recimo na serverju nekaj spremenis, potem pa isti file spreminjas se lokalno, push ne bo mozen, ker bo nastopil konflikt zaradi razlike datotek. Potem das najprej pull s serverja na lokalni repozitorij, nato rocno razresis konflikte, potem naredis commit. 
