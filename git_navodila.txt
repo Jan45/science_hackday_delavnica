@@ -7,3 +7,16 @@ Kodo imamo lahko lokalno, nalozimo na nek server (bitbucket, gitlab, github...)
 Ko naredimo nov projekt: se naredi README v markdown jeziku. 
 
 Iz serverja v lokalno: git clone -- "Se povezemo z repom na serverju, to rabimo samo na zacetku. "
+
+
+
+
+BRANCHI:
+
+Če želimo glavno vejo delujočo, radi pa bi preizkusili neke nove spremembe - naredimo novo vejo, vključimo jo, ko smo se prepričali, da deluje. 
+
+UKAZ:
+
+git branch "ime brancha"
+Ko to naredimo, smo še zmeraj na glavni veji (master branch), da gremo na novo vejo, damo: 
+git checkout "ime brancha"
