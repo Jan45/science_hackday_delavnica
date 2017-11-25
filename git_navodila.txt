@@ -20,3 +20,9 @@ UKAZ:
 git branch "ime brancha"
 Ko to naredimo, smo še zmeraj na glavni veji (master branch), da gremo na novo vejo, damo: 
 git checkout "ime brancha"
+
+Zdaj delamo na novem branchu. Če želimo to poslati na github, uporabimo ukaz: 
+
+git push --set-upstream origin new-branch
+
+Pri tem je origin ime serverja. V kolikor bi imeli na izbiro več serverjev, bi jih lahko poimenovali po svoje. 
