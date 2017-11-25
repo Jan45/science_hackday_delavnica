@@ -1,1 +1,3 @@
 Se neki. 
+
+Dodal bom neka navodila na master branchu, da bomo testirali konflikte.
