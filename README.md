@@ -1,3 +1,3 @@
 # science_hackday_delavnica
 
-##Testni depozitorij na shd
+Testni depozitorij na shd
